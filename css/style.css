@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #F6F5F5;
+}
+/*---------- Header start ----------*/
+header {
+    height: 60px;
+    background: white;
+    box-shadow: 0px 3px 9px #d953aa85;
+}
+.logo {
+    background: transparent;
+}
+.logo h1 {
+    margin-left: 130px;
+    padding: 12px;
+    text-transform: capitalize;
+}
+
+.manu_bar {
+    text-align: right;
+    margin-right: 125px;
+    margin-top: -45px;
+}
+nav {}
+nav ul{}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    background: transparent;
+    color: #552591;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 30px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    background:#d953aa7d;
+}
+/*---------- Header end ----------*/
+/*---------- body start ----------*/
+/*---------- display start ----------*/
+.display {
+
+}
+.message {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.message h3 {
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 22px;
+    color: #6D6D6D;
+}
+.message h1 {
+    color: #D953AA;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.message p {
+    font-family: myrid pro regular;
+    font-size: 35px;
+}
+.button {
+    background: transparent;
+    color: #D953AA;
+    border: 2px solid #D953AA;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 20px 10px;
+}
+.button:hover {
+    background: #D953AA;
+    color: white;
+}
+.img1 {
+    text-align: right;
+    margin-top: -370px;
+    margin-left: 1000px;
+    display: inline-block;
+}
+.img1 img {
+    width: 500px;
+}
+/*---------- display emd ----------*/
+/*---------- about start ----------*/
+.about {
+    margin-left: 200px;
+    margin-top: -5px;
+    display: inline-flex;
+    background: white;
+    width: 1500px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 12px #d953aa85;
+}
+.img2 {
+    width: 118%;
+}
+.img2 img {
+    margin-left: 150px;
+    margin-top: -20px;
+    width: 300px;
+}
+.cv {
+    padding: 30px 150px 0px 80px;
+}
+.cv h3 {
+    font-size: 25px;
+    color:#D953AA;
+}
+.cv h4 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+.cv p {
+    font-family: calibri;
+    color: #7e7d7d;
+}
+/*---------- about end ----------*/
+/*---------- service start ----------*/
+.service {
+    background: white;
+    margin-top: 30px;
+}
+.service_text {
+    font-family: calibri;
+    padding: 50px;
+    margin-left: 150px;
+    width: 530px;
+}
+.service_text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#D953AA;
+}
+.service_text h3 {
+    margin: 8px 0;
+    font-size: 20px;
+    color: #3E3D3D;
+}
+.service_text p{}
+/*---------- service end ----------*/
+/*---------- card start ----------*/
+.card_part {
+    margin-left: 70px;
+}
+.card {
+    padding: 20px;
+    background: #445760;
+    width: 270px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 165px 70px 130px;
+    box-shadow: 5px 5px 10px #d953aa85;
+}
+.card:hover {
+    background: #D953AA
+}
+.card i {
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+.card h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+}
+.card p {
+    padding: 0px 15px;
+    color: #8f8f8f;
+}
+.card p:hover {
+    color: black;
+}
+.card button{
+    background: white;
+    color:#D953AA;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 20px 10px;
+}
+.card button:hover {
+    background: black;
+    color: white;
+}
+/*---------- card end ----------*/
+/*---------- contact start ----------*/
+.contact {
+    background: #445760;
+    text-align: center;
+    padding: 80px;
+}
+.contact h1 {
+    color: white;
+    font-size: 30px;
+    font-family: calibri;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.contact button {
+    background: white;
+    color: #D953AA;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 10px;
+    width: 170px;
+}
+.contact button:hover {
+    background: #D953AA;
+    color: white;
+}
+/*---------- contact end ----------*/
+/*---------- footer start ----------*/
+.footer {
+    text-align: center;
+}
+.footer h1 {
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 30px;
+    margin: 40px 0px;
+}
+.footer p {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.social_icon {
+    background: #E6E3E3;
+    margin: 10px;
+    font-size: 15px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+.social_icon:hover {
+    background: #D953AA;
+    color: white;
+}
+.copyright {
+    padding: 20px 0px 0px 0px;
+}
+/*---------- footer end ----------*/
+/*---------- body end ----------*/
